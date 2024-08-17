@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+
+    background: rgba(4, 4, 78, 0.725);
+}
+.shadowSelect
+{
+    margin: 100px auto;
+    width: 1200px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-image: url(./images/GroupPhoto.jpg);
+    position: relative;
+    opacity: 0.5;
+
+}
+.anitaShadow
+{
+    background-image: url(./images/AnitaClick.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 900px;
+    /* height: 500px; */
+}
+.selection1
+{
+    background: gray;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 5%;
+    height: 8.5%;
+    opacity: 0.9;
+}
